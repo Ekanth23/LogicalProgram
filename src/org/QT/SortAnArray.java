@@ -19,6 +19,8 @@ public class SortAnArray {
             }
         }
         
+        System.out.println("sorted Array");
+        
         for(int num:arr){
             System.out.print(num+" ");
         } 
