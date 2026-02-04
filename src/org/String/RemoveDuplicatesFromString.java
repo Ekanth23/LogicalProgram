@@ -12,6 +12,7 @@ public class RemoveDuplicatesFromString {
     public static String removeDuplicates(String str) {
 
         Set<Character> set = new LinkedHashSet<>(); // keeps insertion order
+        
 
         for (char ch : str.toCharArray()) {
             set.add(ch);
