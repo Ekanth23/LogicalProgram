@@ -24,6 +24,7 @@ public class WordCount {
     	                wordMap.put(word, 1);
     	            }
     	        }
+    	        
 
     	        // Print result word=frequency
     	        for (Map.Entry<String, Integer> entry : wordMap.entrySet()) {
