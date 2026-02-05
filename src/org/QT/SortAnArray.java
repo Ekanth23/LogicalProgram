@@ -19,7 +19,7 @@ public class SortAnArray {
             }
         }
 
-        System.out.println("min branch code only"); 
+        System.out.println("main branch code updated everywhere"); 
         for(int num:arr){
             System.out.print(num+" ");
         } 
