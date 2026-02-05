@@ -19,13 +19,7 @@ public class SortAnArray {
             }
         }
 
-        System.out.println("Approve code from Ekanth branch");
-        System.out.println("Code from Ekanth_LogicalProgam branch");
-        System.out.println("Code from Main Branch");
-        System.out.println("Approve code from Practice Branch");
-        System.out.println("sorted Array");
-        
-        
+        System.out.println("min branch code only"); 
         for(int num:arr){
             System.out.print(num+" ");
         } 
