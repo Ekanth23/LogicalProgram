@@ -19,7 +19,9 @@ public class SortAnArray {
             }
         }
 
-        System.out.println("main branch code updated everywhere"); 
+        System.out.println("main branch code updated everywhere");
+        System.out.println("from practice branch");
+
         for(int num:arr){
             System.out.print(num+" ");
         } 
