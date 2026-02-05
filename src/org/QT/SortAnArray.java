@@ -19,10 +19,15 @@ public class SortAnArray {
             }
         }
 
+<<<<<<< HEAD
         System.out.println("main branch code updated everywhere"); 
         System.out.println("code from Ekanth branch"); 
         System.out.println("code checking"); 
 
+=======
+        System.out.println("main branch code updated everywhere");
+        System.out.println("from practice branch");
+>>>>>>> practice
 
         for(int num:arr){
             System.out.print(num+" ");
