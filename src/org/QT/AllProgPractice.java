@@ -5,25 +5,20 @@ public class AllProgPractice {
 	
 	public static void main(String[] args) {
 		
-		int[] arr = { 10, 30, 50, 20, 40, 60, 70, 80 }; 
+		int n = 10; 
 		
-		int largest = Integer.MIN_VALUE; 
-		int secondLargest = Integer.MIN_VALUE; 
+		int a=0, b=1, i=2; 
 		
-		for (int num:arr) {
-			if(num>largest) {
-				secondLargest = largest; 
-				largest = num; 
-			} else if(num>secondLargest && num != largest) {
-				secondLargest = num; 
-			}
-		}  if( secondLargest == Integer.MIN_VALUE) {
+		System.out.print("Fibonaci: "+ a +", "+b);
 		
-		System.out.println("there is no such second Largest");
-		
-	} else {
-		System.out.println("Second Largest: "+secondLargest);
-	}
-
+		while(i<n) {
+			int c = a + b; 
+			System.out.print(", "+c); 
+			a = b; 
+			b = c; 
+			i++; 
+			
+		}
+	
 }
 }

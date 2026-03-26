@@ -24,7 +24,7 @@ public class RemoveDuplicateFromAnArray {
 			}
 
 			// If not found → add to unique array
-			if (!found) {
+			if(!found) {
 				unique[count] = arr[i];
 				count++;
 			}
