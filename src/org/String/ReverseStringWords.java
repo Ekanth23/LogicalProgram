@@ -7,8 +7,12 @@ public class ReverseStringWords {
         String input = "Java956bdd7092selenium67a";
         String output = reverseWords(input);
         //expected result = "avaJ956ddb7092muineles67a"
-
-        System.out.println(output);
+        String expectedOutPut = "avaJ956ddb7092muineles67a";
+        
+        System.out.println("given input: "+input);
+        System.out.println("expec otput: "+output);
+        System.out.println("actua otput: "+output);
+        
     }
 
     public static String reverseWords(String input) {

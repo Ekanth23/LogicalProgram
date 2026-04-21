@@ -8,7 +8,8 @@ public class ReverseString {
 
     	String str = "Welcome"; 
         String res = ""; 
-        for(int i=str.length()-1; i>=0; i--){
+        for(int i=str.length()-1; i>=0; i--)
+        {
             res=res+str.charAt(i); 
         }
         System.out.println(res);

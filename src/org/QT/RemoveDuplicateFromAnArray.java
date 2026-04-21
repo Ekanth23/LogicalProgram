@@ -17,7 +17,8 @@ public class RemoveDuplicateFromAnArray {
 
 			// Check if this element already exists in unique array
 			for (int j = 0; j < count; j++) {
-				if (arr[i] == unique[j]) {
+				if (arr[i] == unique[j]) 
+				{
 					found = true;
 					break;
 				}
