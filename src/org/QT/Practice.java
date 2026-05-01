@@ -1,5 +1,6 @@
 package org.QT;
 
+import java.sql.ResultSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 /*
@@ -22,6 +23,7 @@ import java.util.Set;
  13. Word Count 
  #String 
  14. Remove Duplicate from String 
+ 15. Print upper, lower, digit and special char ==> Welcome@123
  
  
  */
@@ -30,22 +32,21 @@ public class Practice {
 
     public static void main(String[] args) {
     	
-    	String str = "ekanthalingam"; 
-    	String res = ""; 
-    	Set<Character> set = new LinkedHashSet<>();
-    	
-    	for(char c:str.toCharArray())
+    	//1, 1, 2, 3, 5, 8, 13
+    	int a=1; 
+    	int b= 2; 
+    	System.out.println(a);
+    	System.out.println(b);
+    	for(int i=1; i<10; i++)
     	{
-    		set.add(c); 
+    		int c= a+b; 
+    		System.out.println(c);
+    		a=b;
+    		b=c; 
     	}
-    	for(char c:set)
-    	{
-    		res = res+c; 
-    	}
-    	
-    	System.out.println(res);
     	
     	
 
+    		
     	    }
 	}
